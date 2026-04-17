@@ -1,1 +1,2 @@
-～/.local/share/fcitx5
+～/.local/share/
+usr/share/
