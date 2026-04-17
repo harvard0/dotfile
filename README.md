@@ -1,2 +1,1 @@
-～/.local/share/
-usr/share/
+各种个人配置文件
