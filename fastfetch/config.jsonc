@@ -4,7 +4,7 @@
     	"type": "file",
     	"source": "~/.config/fastfetch/face",
     	"padding": {
-            "top": 4,              // 上边距
+            "top": 2,              // 上边距
         },
     	"color": {"1": "magenta"} // 修改颜色
     },
@@ -12,11 +12,6 @@
         "separator": " " // 禁用默认的冒号，改为空格
     },	//设置全局展示配置，可设置keys&title颜色
     "modules": [
-        {
-            "type": "custom",
-            "format": "    Hello! Mizuki."
-        },
-        "break",
         {
             "type": "custom",
             "format": "    ┌──────────────────────── {#1}System Information{#} ─────────────────────────┐"
