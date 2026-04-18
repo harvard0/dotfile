@@ -1,0 +1,28 @@
+theme = Catppuccin Mocha
+font-family = "MesloLGS NF Regular"
+font-size = 14
+
+# 强制把标题栏颜色同步为当前主题色
+window-theme = ghostty
+
+# 确保标题栏是开启状态
+window-decoration = auto
+
+# 保留内边距，让终端看起来不拥挤
+window-padding-x = 15
+window-padding-y = 15
+
+window-width = 120
+window-height = 35
+
+# 自动记住上一次关闭时的窗口大小和屏幕位置
+# window-save-state = always
+
+# 设置光标形状为“实心方块”
+cursor-style = block
+# 关闭光标的闪烁动画
+cursor-style-blink = false
+# 强制锁定光标设置，防止被 Shell 篡改
+shell-integration-features = no-cursor
+
+custom-shader = shaders/glow.glsl
